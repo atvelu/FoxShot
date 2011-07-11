@@ -1,0 +1,22 @@
+/* This is just an example.  You shouldn't do this. */
+#screenshot-hello
+{
+  color: red ! important;
+}
+#screenshot-toolbar-button
+{
+  list-style-image: url("chrome://screenshot/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#screenshot-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #screenshot-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #screenshot-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}

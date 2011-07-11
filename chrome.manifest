@@ -1,0 +1,9 @@
+content   screenshot                 chrome/content/
+skin      screenshot   classic/1.0   chrome/skin/
+locale    screenshot   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://screenshot/content/ff-overlay.xul
+
+component {EC91EC3D-F39C-4E35-8225-862BE24C7D9C} components/main.js  abi=WINNT_x86-MSVC
+contract @Citrix/screenshot;1 {EC91EC3D-F39C-4E35-8225-862BE24C7D9C}

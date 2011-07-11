@@ -1,0 +1,8 @@
+<!ENTITY screenshot.label "Your localized menuitem">
+<!ENTITY screenshotContext.label "Your Menuitem">
+<!ENTITY screenshotContext.accesskey "Y">
+<!ENTITY screenshotToolbarButton.label "Your Toolbar Button">
+<!ENTITY screenshotToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY screenshotSidebar.label "Your Sidebar">
+<!ENTITY screenshotToolbar.name  "example">
+<!ENTITY screenshotToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &screenshotToolbar.name;">
